@@ -1,0 +1,216 @@
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+    <div id="Home" class="w3-center">
+            <video id="grab" onclick="document.getElementById('Chime2').play()" alt="Video Head" class="w3-circle" autoplay loop muted playsinline preload="auto">
+                <source src="~/videos/name.mov" type="video/mp4">
+                <source src="~/videos/name.mov" type="video/webm">
+                <source src="~/videos/name.mov" type="video/ogg">
+                <object>
+                    <embed src="~/videos/name.mov" type= "application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="always" />
+                </object>   
+                Your browser does not support the video tag.
+            </video> 
+     </div>
+
+            <div style="position: absolute; top: 105vh; right: 1%;height: 10em; background: radial-gradient(circle closest-side, black, silver 50%, transparent); z-index:-1;">
+              <h3 id="Portfolio" style="font-family: 'Orbitron', sans-serif; color:silver; font-size: .75em; padding: 5em 5em; height:5em;">Portfolio</h3>
+            </div>
+            <div style="position: absolute; top: 199vh; right:0; height: 13em; background: radial-gradient(circle closest-side, black, silver 50%, transparent); z-index:-1;">
+              <h3 id="Professional" style="font-family: 'Orbitron', sans-serif; color:silver; font-size: .75em; padding: 7em 5em;">Professional</h3>
+            </div>
+            <div style="position: absolute; top: 305vh; right: 2%;height: 10em; z-index:1; background: radial-gradient(circle closest-side, black, silver 50%, transparent);">
+              <h3 id="Hobbies" style="font-family: 'Orbitron', sans-serif; color:silver; font-size: .75em; padding: 5em 5em; height:5em;">Hobbies</h3>
+            </div>
+
+  <a title="Home" href="#Date" onclick="document.getElementById('bat').play()"><img id="arrow"style="z-index:1; display: none; width:3em; position:fixed; bottom:2em; right: 2em" class="fa-rotate-270" src="~/images/arrow.png"></a>
+  <img src="~/images/diamond.png" alt="diamond" id="dia" style="position: absolute; top:10em; right:25%; width:2em; z-index: -1;">
+  <img src="~/images/diamond.png" alt="diamond2" id="dia2" style="position: absolute; top:10em; left:25%; width:2em; z-index: -1;">  
+ 
+        <a href="#port" onclick="document.getElementById('water2').play()"><div id="Po" >Portfolio</div></a>
+        <a href="#pro" class ="w3-center" onclick="document.getElementById('water2').play()"><div id="Pro">Professional</div></a>
+        <a href="#hob" onclick="document.getElementById('water2').play()"><div id="Ho">Hobbies</div></a>
+    
+          <img id="port" src="~/images/diamond.png" onmouseover="cond3()" style="position: absolute; top: 97vh; left: 0; width:100%; max-height: 3em"> 
+           <div style=" position: absolute; top: 100vh; left:10%; width: 80%; border-radius:25em 25em 35em 35em; height: 101vh; background-color:white; opacity:.25;">
+            <img src="~/images/hcj.png" style="width: 35%; position: absolute; top: 60vh; left: 32%">
+            <img src="~/images/aws.png" style="width: 30%; position: absolute; top: 35vh; left: 5%">
+            <img src="~/images/azure.png" style="width:30%; position: absolute; top: 20vh; right: 10%;">
+            <img src="~/images/MySQL.png" style="width: 25%; position: absolute; top: 40vh; right: 35%">
+            <img src="~/images/net.jpg" style="width: 35%; position: absolute; top: 10vh; right: 40%">    
+           </div>
+
+        <img id="pro" src="~/images/diamond.png" onmouseover="cond2()" style="position: absolute; top: 198vh; left: 0; width:100%; max-height: 3em">
+         <!--<img id="grab5" src="~/images/image4.jpg" title="Contact Joe" onclick=" document.getElementById('id02').style.display='block'; document.getElementById('p4start').play()" onmouseover="cond4(this)" onmouseout="cond5(this)">-->
+          <img id="pro1" src="~/images/Dallas.png">
+          
+          <img id="whiterock" src="~/images/photo.jpg" onclick="document.getElementById('id02').style.display='inline'; document.getElementById('p4start').play()">
+          <img id="pro3" src="~/images/360star.png">
+          <video id="pro4" alt="Video Head" class="w3-circle" autoplay loop muted playsinline preload="auto">
+            <source src="~/videos/bbonnet.mp4" type="video/mp4">
+            <source src="~/videos/bbonnet.mp4" type="video/webm">
+            <source src="~/videos/bbonnet.mp4" type="video/ogg">
+            <object>
+                <embed src="~/videos/bbonnet.mp4" type= "application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="always" />
+            </object>   
+            Your browser does not support the video tag.
+          </video> 
+          </div>  
+          <div class="image">            
+            <div style="font-family: 'Orbitron', sans-serif; position: absolute; top:283vh; left: 20%; min-width: 50%">
+              <p id="cs" ><img src="~/images/csharp.png" style="vertical-align:middle;width: 5em; display: inline-block">ASP.NET Core</p>
+            </div>
+            <div style="font-family: 'Orbitron', sans-serif; position: absolute; top:283vh; left: 55%;">
+              <p id="faacert"><img src="~/images/FAA.png"  style="vertical-align:middle; display: inline-block; width: 5em">  Certified sUAS</p>
+            </div>
+          </div>
+            <video id="clouds"  alt="Video Head" autoplay loop muted playsinline preload="auto">
+            <source src="~/videos/clouds.mp4" type="video/mp4">
+            <source src="~/videos/clouds.mp4" type="video/webm">
+            <source src="~/videos/clouds.mp4" type="video/ogg">
+            <object>
+                <embed src="~/videos/clouds.mp4" type= "application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="always" />
+            </object>   
+            Your browser does not support the video tag.
+          </video>
+          
+          <img id="hob" src="~/images/diamond.png" onmouseover="cond()" style="position: absolute; top: 298vh; left: 0; width:100%; max-height: 3em; z-index:1">
+          <section style="opacity:.5;">
+            <img class="mySlides" src="~/images/image6.jpg" style="z-index:-1; border-radius: 125em;">
+            <img class="mySlides" src="~/images/image7.jpg" style="z-index:-1; border-radius: 125em;">
+            <img class="mySlides" src="~/images/image8.jpg" style="z-index:-1; border-radius: 125em;">
+            <img class="mySlides" src="~/images/image9.jpg" style="z-index:-1; border-radius: 125em;">
+          </section>
+          <img id="grab3" class="w3-spin" src="~/images/poster2.png" onclick="document.getElementById('id01').style.display='inline'; document.getElementById('water').play()">
+          <div id="multib" class="w3-circle"></div> 
+            <video id="grab2" alt="Golf Video" class="w3-hover-opacity w3-circle" autoplay loop muted playsinline preload="auto">
+                <source src="~/videos/IMG_1610.MOV" type="video/mp4">
+                <source src="~/videos/IMG_1610.MOV" type="video/webm">
+                <source src="~/videos/IMG_1610.MOV" type="video/ogg">
+                <object>
+                    <embed src="~/videos/IMG_1610.MOV" type= "application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="always" />
+                </object>   
+                Your browser does not support the video tag.
+            </video>
+            <video id="grab7" onclick="document.getElementById('Ball').play()" alt="Basketball Video" class="w3-hover-opacity w3-circle" autoplay loop muted playsinline preload="auto">
+                <source src="~/videos/bball.MOV" type="video/mp4">
+                <source src="~/videos/bball.MOV" type="video/webm">
+                <source src="~/videos/bball.MOV" type="video/ogg">
+                <object>
+                    <embed src="~/videos/bball.MOV" type= "application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="always" />
+                </object>   
+                Your browser does not support the video tag.
+            </video>
+            <section style="opacity:.5;">
+              <img class="mySlides2" src="~/images/2016champ2.png">
+              <img class="mySlides2" src="~/images/sig.jpg">
+              <img class="mySlides2" src="~/images/IMG_2684.png">
+            </section>
+        <video id="grab4" onclick="document.getElementById('Darts2').play()" alt="Rocket League Video" class=" w3-hover-opacity w3-circle" autoplay loop muted playsinline preload="auto">
+                <source src="~/videos/parrot.mov" type="video/mp4">
+                <source src="~/videos/parrot.mov" type="video/webm">
+                <source src="~/videos/parrot.mov" type="video/ogg">
+                <object>
+                    <embed src="~/videos/parrot.mov" type= "application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="always" />
+                </object>   
+                Your browser does not support the video tag.
+            </video>
+  
+
+<div id="id01" class="w3-modal" style="z-index:6">
+   <img style="height:100vh; left:2%; position:absolute; top:0vh;opacity:.25" src="~/images/diamond.png">
+   <img style="height:100vh; right:2%; position:absolute; top:0vh;opacity:.25" src="~/images/diamond.png">
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="border-radius: 1em;">
+      <header style="height: 5em">
+               <h3 class="w3-center">Thanks for visiting!</h3> 
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright" style="border-radius: 0 1em 0 0;">X</span>
+      </header>
+      <div class="w3-padding">
+        <div class="w3-row-padding">
+          <div class="w3-center">
+            <form id="guestbook" action="GuestBook" method="POST" class="w3-container w3-card-4" style="border-radius: 1em">
+              <div class="w3-section">      
+                <input name="Name" class="w3-input w3-center" style="background-color: silver; border-radius:25em;" type="text" required>
+                <label>Name</label>
+              </div>
+              <div class="w3-section">      
+                <input name="Email"class="w3-input w3-center" style="background-color: silver; border-radius:25em;" type="text" placeholder="(Optional)">
+                <label>Email</label>
+              </div>
+              <div class="w3-section">      
+                <textarea name="Note" class="w3-input w3-center" style="max-width:100%; background-color: silver; border-radius:1em;"></textarea>
+                <label>Message</label>
+              </div>   
+            </div>
+                <footer class="w3-container w3-theme-l1">
+                  <div id="dive" style="padding:1em; text-align: center" class="w3-right">
+                    <input style="display: block" onclick="cond6(); document.getElementById('Chip').play()" type="submit" value="Submit" name="submit">
+                  </div>
+                </footer>
+              </form>
+          </div>
+        </div>
+      </div>
+        </div>
+
+<div id="id02" class="w3-modal" style="z-index:6">
+     <img style="width: 100%; position:absolute; top:0vh;opacity:.25" src="~/images/signature_edited.jpg">
+    <div class="w3-modal-content w3-card-4 w3-animate-top" style="border-radius: 1em">
+      <header style="height: 5em">
+               <h3 class="w3-center" style="padding:0 2em 2em 0">Under Construction! Form will not Submit.</h3> 
+        <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright" style="border-radius: 0 1em 0 0;">X</span>
+      </header>
+      <div class="w3-padding">
+        <div class="w3-row-padding">
+          <div class="w3-center">
+            <form id="drone" name="Drone" action="/" method="POST" class="w3-container w3-card-4" style="border-radius: 1em">
+              <div class="w3-half">      
+                <input name="FName" class="w3-input w3-center" type="text" placeholder="First Name" required>
+              </div>
+              <div class="w3-half">      
+                <input name="LName" class="w3-input w3-center" type="text" placeholder="Last Name" required>
+              </div>
+              <div class="w3-half">      
+                <input name="Email"class="w3-input w3-center" type="text" placeholder="Email">
+              </div>
+              <div class="w3-half">      
+                <input name="Phone"class="w3-input w3-center" type="text" placeholder="Phone">
+              </div>
+              <div class="w3-half">      
+                
+                <input id="date" name="Date"class="w3-input w3-center" type="text" placeholder="Date/Time (If Applicable)">
+              </div>
+              <div class="w3-half">      
+                <input name="Time"class="w3-input w3-center" type="time">
+
+              </div>
+              <div class="w3-section">      
+                <textarea name="Message" style="width:100%" placeholder="Message"></textarea>
+              </div>   
+            </div>
+                <footer class="w3-container w3-theme-l1">
+                  <div id="dive" style="padding:1em; text-align: center" class="w3-right">
+                    <input style="display: block" onclick="document.getElementById('Chip').play()" type="submit" value="Submit" name="submit">
+                  </div>
+                </footer>
+              </form>
+          </div>
+        </div>
+      </div>
+        </div>
+<!--
+        <div style="position:absolute; top:400vh; z-index:10em;">
+          <div id="llc" style="radial-gradient(transparent,white, transparent 70%);
+            background: -webkit-radial-gradient(transparent,white, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(transparent,white, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(transparent,white, transparent 70%);text-align:center; color:silver;padding:1em;">
+              <h3 style="text-align:center;font-family: courier Courier New, Courier, monospace; color:silver; text-align: center;">Created by Joe Agnew<h3>  
+            </div>
+          </div>-->
+
+   
+  
+ 

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sixty-div{
+    width: 60%;
+}
+
+.bordered{
+    border: .05em solid black;
+}
+
+.center{
+    margin: auto;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.bar-display{
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+}
+
+.main-display{
+    height: 200px;;
+}
+
+.dojodachi-display{
+    height: 70%;
+}
+
+.center-vertical{
+    margin-top: 80px;
+}
+
+#grab{
+    max-width: 25%;
+    text-align: right;
+    padding:2em;
+}

@@ -1,0 +1,82 @@
+@{
+    DateTime currentDate = DateTime.Now;
+    string formattedDate = String.Format("{0:dddd, MMM d, yyyy}", currentDate);
+    string LocalString = ViewBag.Tit;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">       
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="~/css/site.css"/>
+</head>
+<body>  
+
+    <audio id="Chime2">
+      <source src="~/audio/Chime2.wav">
+    </audio>
+    <audio id="ac2">
+      <source src="~/audio/A-c Copy.wav">
+    </audio>
+    <audio id="bat">
+      <source src="~/audio/Bat.wav">
+    </audio>
+    <audio id="p4start">
+      <source src="~/audio/P4start.wav">
+    </audio>
+    <audio id="water2">
+      <source src="~/audio/Water2.wav">
+    </audio>
+    <audio id="water">
+      <source src="~/audio/Water Bottle Open.wav">
+    </audio>
+   <audio id="BBI">
+      <source src="~/audio/BackboardIn.wav">
+    </audio>
+    <audio id="Chip">
+      <source src="~/audio/Chip.wav">
+    </audio>
+     <audio id="golf">
+      <source src="~/audio/GolfIronGrass.wav">
+    </audio>
+    <audio id="glass">
+      <source src="~/audio/Glass.wav">
+    </audio>
+    <h1 class="w3-center" style="position: absolute; top: 2vh; left: 7%; font-size: 1em;">@LocalString</h1>
+        <h3 id="Date" style="font-family: 'Orbitron', sans-serif; position: absolute; top:.5; right: .5em"></h3>
+        <div id="Time" style="font-family: 'Orbitron', sans-serif; position: absolute; top:3.5em; right: 1em"></div>
+
+    <nav id="mySidebar" class="w3-sidebar w3-center" style="z-index:1; display:none; padding: 1em 0 .2em 0; position:fixed; top: 2.5%; left: 0em; border-radius:0em 1em 1em 0em; width:7em; height:20em; opacity: .25;" >
+    <div><a href="https://twitter.com/TXJOE25" class="fa-flip-horizontal w3-bar-item w3-animate-top fa fa-twitter fa-2x w3-button w3-text-blue w3-hover-white"></a></div>
+    <div><a href="https://www.youtube.com/channel/UCYZVLtllvazKiwMi_tuZEbA" class="w3-bar-item w3-animate-left fa fa-youtube-play fa-2x w3-button w3-text-red w3-hover-white"></a></div>
+    <div><a href="https://www.linkedin.com/in/joe-agnew/" class="w3-bar-item w3-animate-right fa fa-linkedin-square fa-2x w3-button w3-text-blue w3-hover-white"></a></div>
+    <div><a href="https://www.twitch.tv/txjoe25" class="w3-bar-item w3-animate-right fa fa-twitch fa-2x w3-button w3-text-purple w3-hover-white"></a></div>
+    <div><a href="https://github.com/txjoe25" style="color:white;opacity;.25" class="w3-bar-item fa fa-github fa-2x w3-button w3-hover-white"></a></div>
+    <div><a href="http://txjoe25.deviantart.com/" style="color:white;opacity;.25" class="w3-bar-item w3-animate-bottom fa fa-deviantart w3-text-green fa-2x w3-button w3-hover-white"></a></div>
+    <button id="socialx" style="border-radius:3em;z-index:1;position: absolute; top: .1em; right: .1em;" class="w3-bar-item w3-button w3-transparent" onclick="w3_close(); document.getElementById('ac2').load(); document.getElementById('glass').play()"><img style="-moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1);height: 1em;transform: scaleX(-1); filter: FlipH;" src="~/images/arrow.png"></button>
+  </nav>
+   
+<img id='social' title="Social Media" class="w3-animate-fading" onmouseover="mouseOver()" onmouseout="mouseOut()" style="z-index:1; opacity:.5;position:fixed; left: 3em; top:1em; width:3em" src="~/images/ball.png" onclick="w3_open(); document.getElementById('golf').play()">
+
+        @RenderBody()
+        <footer class="w3-container w3-padding-16">
+  
+        </footer>
+        
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.js"
+                asp-fallback-test="window.jQuery">
+        </script>   
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>      
+        <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

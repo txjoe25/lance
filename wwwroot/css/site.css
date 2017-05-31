@@ -1,0 +1,711 @@
+	@media screen and (max-width : 30em){
+        #Date{
+            color:silver;
+        }
+        #Time{
+            color:silver;
+        }
+        body{
+            background: radial-gradient(black,silver, black 50%);
+            background: -webkit-radial-gradient(black,silver, black 50%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(black,silver, black 50%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(black,silver, black 50%);
+            }
+            #Po{
+            position:absolute; top:45%; left:25%;
+            z-index:0;
+            display: inline-block;
+            width:6em;padding:.2em; 
+            background: radial-gradient(black, transparent 70%);
+            background: -webkit-radial-gradient(black, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(black, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(black, transparent 70%);
+            border-radius:1em; 
+            cursor: crosshair; 
+            text-decoration: none; font-family: 'Orbitron', sans-serif; color:silver;  text-align: center;
+            font-size: 1.5em;
+        }
+        #Pro{
+            position:absolute; top:55%; left:25%;
+            z-index:0;
+            display: inline-block;
+            width:8em; padding:.2em; 
+            background: radial-gradient(black, transparent 70%);
+            background: -webkit-radial-gradient(black, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(black, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(black, transparent 70%);
+            cursor: crosshair; text-decoration: none; font-family: 'Orbitron', sans-serif; color:silver;  text-align: center;
+            font-size: 1.5em;
+        }
+        #Ho{
+            position:absolute; top:65%; left:25%;
+            z-index:0;
+            display: inline-block;
+            width:5em; padding:.2em; 
+            background: radial-gradient(black, transparent 70%);
+            background: -webkit-radial-gradient(black, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(black, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(black, transparent 70%);
+            cursor: crosshair; 
+            text-decoration: none; font-family: 'Orbitron', sans-serif; color:silver;  text-align: center;
+            font-size: 1.5em;
+        }
+        #pro1{
+            max-width:40%; 
+            max-height: 40%;
+            border-style: inset; border-color:gold; border-width: .5em; 
+            position: absolute; top:220vh; left: 15%;
+        }
+        #pro2{
+            max-width: 40%; 
+            max-height: 40%;
+            border-style: double; border-color:gold; border-width: .5em; 
+            position: absolute; top:232vh; right: 5%;
+        }
+        #pro3{
+            max-width:45%; 
+            max-height: 45%; 
+            border-style: outset; border-color:gold; border-width: .5em; 
+            position: absolute; top:248vh; left: 15%;
+        }
+       
+        #pro4{
+            max-width:45%; 
+            max-height: 45%; 
+            border-style: double; border-color:gold; border-width: .5em; 
+            position: absolute; top:264vh; right: 5%
+        }
+
+        #faacert, #cs{
+            color:silver; font-size: 1.5vmin;
+            
+        }
+        #grab{
+            top: 4em; margin:auto; width:50%; opacity: .75; z-index:0;
+        }
+        #grab2{
+            max-width:25%; max-height: 25%;
+            border-style: inset; border-color:gold; border-width: .5em; 
+            position: absolute; top:325vh; left: 15%; 
+            -webkit-filter: grayscale(100%);filter: grayscale(100%);
+           
+        }
+       
+          #grab4{
+            max-width:25%; 
+            max-height: 25%;
+            border-style: inset; border-color:gold; border-width: .5em;  
+            position: absolute; top:325vh; right: 5%; 
+            -webkit-filter: grayscale(100%);filter: grayscale(100%); 
+            z-index:2;
+        }
+        #grab6{
+            max-width:35%; 
+            max-height: 35%;
+            border-style: inset; border-color:silver; border-width: .5em;  
+            position: absolute; top:357vh; left: 10%; 
+            z-index:2;
+        }
+        #grab7{
+            max-width:45%; 
+            max-height: 45%;
+            border-style: inset; border-color:silver; border-width: .5em;  
+            position: absolute; top:365vh; right: 5%; 
+            z-index:0;
+        }
+        #multi{
+            position: absolute; top: 342vh; height:8em;left: 35%; border-radius: 25em; z-index:0; opacity:.25;
+        }
+         
+    }
+    @media screen and (min-width : 30em) and (max-width : 46em){
+        #Date{
+            color:black;
+        }
+        #Time{
+            color:black;
+        }
+  body{
+    background: radial-gradient(silver, black,silver 50%);
+    background: -webkit-radial-gradient(silver, black,silver 50%);
+    /* For Opera 11.6 to 12.0 */
+    background: -o-radial-gradient(silver, black,silver 50%);
+    /* For Firefox 3.6 to 15 */
+    background: -moz-radial-gradient(silver, black,silver 50%);
+    }
+        #Po{
+            position:absolute; top:35%; left:10%;
+            z-index:0;
+            display: inline-block;
+            width:6em;padding:.2em; 
+              background: radial-gradient(black, transparent 70%);
+            background: -webkit-radial-gradient(black, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(black, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(black, transparent 70%);
+          
+            cursor: crosshair; 
+            text-decoration: none; font-family: 'Orbitron', sans-serif; color:silver;  text-align: center;
+            font-size: 100%; 
+        }
+        #Pro{
+            position:absolute; top:35%; right:39%;
+            z-index:0;
+            display: inline-block;
+            width:8em; padding:.2em; 
+              background: radial-gradient(black, transparent 70%);
+            background: -webkit-radial-gradient(black, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(black, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(black, transparent 70%);
+            cursor: crosshair; text-decoration: none; font-family: 'Orbitron', sans-serif; color:silver;  text-align: center;
+            font-size: 100%
+        }
+        #Ho{
+            position:absolute; top:35%; right:10%;
+            z-index:0;
+            display: inline-block;
+            width:5em; padding:.2em; 
+              background: radial-gradient(black, transparent 70%);
+            background: -webkit-radial-gradient(black, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(black, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(black, transparent 70%);
+            cursor: crosshair; 
+            text-decoration: none; font-family: 'Orbitron', sans-serif; color:silver; 
+            font-size: 100%
+        }
+        #pro1{
+            max-width:30%; 
+            max-height: 30%;
+            border-style: inset; border-color:gold; border-width: .5em; 
+            position: absolute; top:215vh; left: 5%;
+        }
+        #pro2{
+            max-width: 30%; 
+            max-height: 30%;
+            border-style: double; border-color:gold; border-width: .5em; 
+            position: absolute; top:215vh; right: 30%;
+        }
+        #pro3{
+            max-width:30%; 
+            max-height: 30%; 
+            border-style: outset; border-color:gold; border-width: .5em; 
+            position: absolute; top:250vh; right: 30%;
+        }
+        #pro4{
+            max-width:30%; 
+            max-height: 30%; 
+            border-style: double; border-color:gold; border-width: .5em; 
+            position: absolute; top:250vh; left: 5%
+        }
+ 
+        #faacert, #cs{
+            color:white; font-size: 2vmin;
+        }
+        #grab{
+            top: 4em; margin:auto; width:50%; opacity: .75; z-index:0;
+        }
+        #grab2{
+            max-width:30%; 
+            max-height: 30%;
+            border-style: inset; border-color:gold; border-width: .5em; 
+            position: absolute; top:315vh; left: 25%; 
+            -webkit-filter: grayscale(100%);filter: grayscale(100%);
+            z-index:2;
+        }
+        
+          #grab4{
+            max-width:30%; 
+            max-height: 30%;
+            border-style: inset; border-color:gold; border-width: .5em;  
+            position: absolute; top:315vh; right: 25%; 
+            -webkit-filter: grayscale(100%);filter: grayscale(100%); 
+            z-index:2;
+        }
+        #grab6{
+            max-width:35%; 
+            max-height: 35%;
+            border-style: inset; border-color:silver; border-width: .5em;  
+            position: absolute; top:350vh; left: 15%; 
+            z-index:2;
+        }
+        #grab7{
+            max-width:35%; 
+            max-height: 35%;
+            border-style: inset; border-color:silver; border-width: .5em;  
+            position: absolute; top:350vh; right: 5%; 
+            z-index:0;
+        }
+            #multi{
+            position: absolute; top: 343vh; height:8em;left: 41%; border-radius: 25em; z-index:0; opacity:.25;
+        }
+    }
+     @media screen and (min-width : 46em) and (max-width: 64em){
+        #Date{
+            color:black;
+        }
+        #Time{
+            color:black;
+        }
+        body{
+    background: radial-gradient(white, black,silver 50%);
+    background: -webkit-radial-gradient(white, black,silver 50%);
+    /* For Opera 11.6 to 12.0 */
+    background: -o-radial-gradient(white, black,silver 50%);
+    /* For Firefox 3.6 to 15 */
+    background: -moz-radial-gradient(white, black,silver 50%);
+    }
+        #Po{
+            position:absolute; top:40vh; left:10%;
+            z-index:0;
+            display: inline-block;
+            width:6em;padding:.2em; 
+              background: radial-gradient(black, transparent 70%);
+            background: -webkit-radial-gradient(black, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(black, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(black, transparent 70%);
+            cursor: crosshair; 
+            text-decoration: none; font-family: 'Orbitron', sans-serif; color:silver;  text-align: center;
+            font-size: 1.5em;
+        }
+        #Pro{
+            position:absolute; top:40vh; right:39%;
+            z-index:0;
+            display: inline-block;
+            width:8em; padding:.2em; 
+              background: radial-gradient(black, transparent 70%);
+            background: -webkit-radial-gradient(black, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(black, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(black, transparent 70%);
+            cursor: crosshair; text-decoration: none; font-family: 'Orbitron', sans-serif; color:silver;  text-align: center;
+            font-size: 1.5em;
+        }
+        
+        #Ho{
+            position:absolute; top:40vh; right:10%;
+            z-index:0;
+            display: inline-block;
+            width:5em; padding:.2em; 
+              background: radial-gradient(black, transparent 70%);
+            background: -webkit-radial-gradient(black, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(black, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(black, transparent 70%); 
+            cursor: crosshair; 
+            text-decoration: none; font-family: 'Orbitron', sans-serif; color:silver;  text-align: center;
+            font-size: 1.5em;
+        }
+        #pro1{
+            max-width:30%; 
+            max-height: 30%;
+            border-style: inset; border-color:gold; border-width: .5em; 
+            position: absolute; top:212vh; left: 10%;
+        }
+        #pro2{
+            max-width: 30%; 
+            max-height: 30%;
+            border-style: double; border-color:gold; border-width: .5em; 
+            position: absolute; top:212vh; right: 25%;
+        }
+        #pro3{
+            max-width:30%; 
+            max-height: 30%; 
+            border-style: outset; border-color:gold; border-width: .5em; 
+            position: absolute; top:245vh; right: 25%;
+        }
+        #pro4{
+            max-width:30%; 
+            max-height: 30%; 
+            border-style: double; border-color:gold; border-width: .5em; 
+            position: absolute; top:245vh; left: 10%
+        }
+        #grab6{
+            max-width:25%; 
+            max-height: 25%;
+            border-style: inset; border-color:silver; border-width: .5em;  
+            position: absolute; top:415vh; left: 15%; 
+            z-index:2;
+        }
+        #grab7{
+            max-width:45%; 
+            max-height: 45%;
+            border-style: inset; border-color:silver; border-width: .5em;  
+            position: absolute; top:415vh; right: 15%; 
+            z-index:0;
+        }
+    
+        #faacert, #cs{
+            color:white; font-size: 2vmin;
+        }
+         #grab{
+            top: 4em; margin:auto; width:25em; opacity: .75; z-index:0;
+        }
+        #grab2{
+            max-width:40%; 
+            max-height: 40%;
+            border-style: inset; border-color:gold; border-width: .5em; 
+            position: absolute; top:310vh; left: 15%; 
+            -webkit-filter: grayscale(100%);filter: grayscale(100%);
+            
+        }
+     
+          #grab4{
+            
+            max-width:35%; 
+            max-height: 40%;border-style: inset; border-color:gold; border-width: .5em;  
+            position: absolute; top:310vh; right: 15%; 
+            -webkit-filter: grayscale(100%);filter: grayscale(100%);
+            z-index:2;
+           }
+           #grab6{
+            max-width:40%; 
+            max-height: 40%;
+            border-style: inset; border-color:silver; border-width: .5em;  
+            position: absolute; top:350vh; left: 10%; 
+            z-index:2;
+        }
+        #grab7{
+            max-width:35%; 
+            max-height: 35%;
+            border-style: inset; border-color:silver; border-width: .5em;  
+            position: absolute; top:355vh; right: 20%;  
+            z-index:0;
+        }
+           #multi{
+            position: absolute; top: 343vh; height:8em;left: 43%; border-radius: 25em; z-index:0; opacity:.25;
+        }
+        
+    }
+     @media screen and (min-width : 64em) and (max-width : 85em) {
+         #Date{
+            color:silver;
+        }
+        #Time{
+            color:silver;
+        }
+        body{
+            background: radial-gradient(black,silver,black 50%);
+            background: -webkit-radial-gradient(black,silver, black 50%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(black,silver, black 50%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(black,silver, black 50%);
+            }
+        #Po{
+            position:absolute; top:55vh; left:10%;
+            z-index:0;
+            display: inline-block;
+            width:6em;padding:.2em; 
+            background: radial-gradient(white, transparent 70%);
+            background: -webkit-radial-gradient(white, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(white, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(white, transparent 70%);
+            cursor: crosshair; 
+            text-decoration: none; font-family: 'Orbitron', sans-serif; color:black;  text-align: center;
+            font-size: 2.5em;
+        }
+        #Pro{
+            position:absolute; top:55vh; left:36%;
+            z-index:0;
+            display: inline-block;
+            width:8em; padding:.2em; 
+            background: radial-gradient(white, transparent 70%);
+            background: -webkit-radial-gradient(white, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(white, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(white, transparent 70%);
+            cursor: crosshair; text-decoration: none; font-family: 'Orbitron', sans-serif; color:black;  text-align: center;
+            font-size: 2.5em;
+        }
+        #Ho{
+            position:absolute; top:55vh; right:10%;
+            z-index:0;
+            display: inline-block;
+            width:5em; padding:.2em; 
+             background: radial-gradient(white, transparent 70%);
+            background: -webkit-radial-gradient(white, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(white, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(white, transparent 70%);
+            cursor: crosshair; 
+            text-decoration: none; font-family: 'Orbitron', sans-serif; color:black;  text-align: center;
+            font-size: 2.5em;
+        }
+        #pro1{
+            max-width:33%; 
+            max-height: 33%;
+            border-style: inset; border-color:gold; border-width: .5em; 
+            position: absolute; top:212vh; left: 15%;
+        }
+        #pro2{
+            max-width: 33%; 
+            max-height: 33%;
+            border-style: double; border-color:gold; border-width: .5em; 
+            position: absolute; top:212vh; right: 15%;
+        }
+        #pro3{
+            max-width:33%; 
+            max-height: 33%; 
+            border-style: outset; border-color:gold; border-width: .5em; 
+            position: absolute; top:245vh; right: 17%;
+        }
+        #pro4{
+            max-width:33%; 
+            max-height: 33%; 
+            border-style: double; border-color:gold; border-width: .5em; 
+            position: absolute; top:245vh; left: 15%
+        }
+   
+        #faacert, #cs{
+            color:silver; font-size: 2vmin;
+        }
+         #grab{
+            top: 3em; margin:auto; width:50%; opacity: .75; z-index:0;
+        }
+        #grab2{
+            
+            max-width:45%; 
+            max-height: 45%;
+            border-style: inset; border-color:gold; border-width: .5em; 
+            position: absolute; top:310vh; left: 15%; 
+            -webkit-filter: grayscale(100%);filter: grayscale(100%);
+        }
+      
+          #grab4{
+            
+            max-width:45%; 
+            max-height: 45%;
+            border-style: inset; border-color:gold; border-width: .5em;  
+            position: absolute; top:310vh; right: 15%; 
+            -webkit-filter: grayscale(100%);filter: grayscale(100%);
+            z-index:2;
+        }
+        #grab6{
+            max-width:35%; 
+            max-height: 35%;
+            border-style: inset; border-color:silver; border-width: .5em;  
+            position: absolute; top:360vh; left: 15%; 
+            z-index:2;
+        }
+        #grab7{
+            max-width:35%; 
+            max-height: 33%;
+            border-style: inset; border-color:silver; border-width: .5em;  
+            position: absolute; top:360vh; right: 20%; 
+            z-index:0;
+        }
+        #multi{
+            position: absolute; top: 343vh; height:8em;left: 44%; border-radius: 25em; z-index:0; opacity:.25;
+        }
+         
+     }
+     @media screen and (min-width : 85em){
+         #Date{
+            color:black;
+        }
+        #Time{
+            color:black;
+        }
+         body{
+            background: radial-gradient(silver, white, silver 50%);
+            background: -webkit-radial-gradient(silver, white, silver 50%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(silver, white, silver 50%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(silver, white, silver 50%);
+            }
+        #Po{
+            position:absolute; top:75vh; left:10%;
+            z-index:0;
+            display: inline-block;
+            width:6em; margin: 0 1em 0 0;
+            background: radial-gradient(white, transparent 70%);
+            background: -webkit-radial-gradient(white, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(white, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(white, transparent 70%);
+            cursor: crosshair; 
+            text-decoration: none; font-family: 'Orbitron', sans-serif; color:silver;  text-align: center;
+            font-size: 2.5em; 
+        }
+        #Pro{
+            position:absolute; top:75vh;left:42%;
+            z-index:0;
+            display: inline-block;
+            width:8em;
+            background: radial-gradient(white, transparent 70%);
+            background: -webkit-radial-gradient(white, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(white, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(white, transparent 70%);
+            cursor: crosshair; text-decoration: none; font-family: 'Orbitron', sans-serif; color:silver; text-align: center;
+            font-size: 2.5em;
+        }
+        #Ho{
+            position:absolute; top:75vh; right:10%;
+            z-index:0;
+            display: inline-block;
+            width:5em; margin:0 0 0 1em;
+            background: radial-gradient(white, transparent 70%);
+            background: -webkit-radial-gradient(white, transparent 70%);
+            /* For Opera 11.6 to 12.0 */
+            background: -o-radial-gradient(white, transparent 70%);
+            /* For Firefox 3.6 to 15 */
+            background: -moz-radial-gradient(white, transparent 70%);
+            cursor: crosshair; 
+            text-decoration: none; font-family: 'Orbitron', sans-serif; color:silver;  text-align: center;
+            font-size: 2.5em;
+        }
+        #pro1{
+            max-width:30%; 
+            max-height: 30%;
+            border-style: inset; border-color:gold; border-width: .5em; 
+            position: absolute; top:212vh; left: 15%;
+        }
+        #pro2{
+            max-width: 30%; max-height: 30%;
+            border-style: double; border-color:gold; border-width: .5em; 
+            position: absolute; top:212vh; right: 15%;
+        }
+        #pro3{
+            max-width:30%; 
+            max-height: 30%; 
+            border-style: outset; border-color:gold; border-width: .5em; 
+            position: absolute; top:245vh; right: 15%;
+        }
+        #pro4{
+            max-width:30%; 
+            max-height: 30%; 
+            border-style: double; border-color:gold; border-width: .5em; 
+            position: absolute; top:245vh; left: 15%
+        }
+        
+        #faacert, #cs{
+            color:black; font-size: 2vmin;
+        }
+         #grab{
+            top: 4em; margin:auto; width:50%; opacity: .75; z-index:0;
+        }
+        #grab2{
+            max-width: 45%; 
+            max-height: 45%;
+            border-style: inset; border-color:gold; border-width: .5em; 
+            position: absolute; top:305vh; left: 15%; 
+            -webkit-filter: grayscale(100%);filter: grayscale(100%);
+        }
+        
+        #grab4{
+            max-width:45%; 
+            max-height: 45%;
+            border-style: inset; border-color:gold; border-width: .5em;  
+            position: absolute; top:305vh; right: 15%; 
+            -webkit-filter: grayscale(100%);filter: grayscale(100%); 
+            z-index:2;
+        }
+        #grab6{
+            max-width:45%; 
+            max-height: 45%;
+            border-style: inset; border-color:silver; border-width: .5em;  
+            position: absolute; top:350vh; left: 15%; 
+            z-index:2;
+        }
+        #grab7{
+            max-width:45%; 
+            max-height: 45%;
+            border-style: inset; border-color:silver; border-width: .5em;  
+            position: absolute; top:350vh; right: 20%; 
+            z-index:2;
+        }
+        #multi{
+            position: absolute; top: 343vh; height:8em;left: 46.5%; border-radius: 25em; z-index:0; opacity:.25;
+        }
+       
+     }
+     
+    @keyframes mymove {
+        from {height: 10em;}
+        to {height: 2em;}
+    }
+    #whiterock, #grab, #grab2, #grab3, #grab4, #grab6, #grab7 {
+        z-index: 0;
+        cursor: move;
+        cursor: grab;
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+    }
+
+   #whiterock:active, #grab:active, #grab2:active, #grab3:active, #grab4:active, #grab6:active, #grab7:active { 
+        cursor: grabbing;
+        cursor: -moz-grabbing;
+        cursor: -webkit-grabbing;
+    }
+
+    #guest[action*="guestbook.cshtml"] #Title {
+        display:none;
+    }
+    img[title]:hover:after {
+            content: attr(title);
+            padding: 10px;
+            background-color: white;
+            position: absolute;  
+    }
+    #grab3{
+           position: absolute; top: 365vh; height:7em;left:25%; 
+            width:1em; 
+            height: 2em;
+            -webkit-filter: grayscale(100%);filter: grayscale(100%); 
+            animation-duration: infinite;
+            z-index:5;
+        }
+       
+    #grab5{
+            cursor:all-scroll; position: absolute; top: 250vh; right:5%; width: 3em; border-radius: 25em; z-index:2;
+    }   
+    #clouds{
+            z-index: -2;
+            opacity: .5; 
+            position: absolute;
+            top: 201vh;
+            width: 100%;
+            max-height: 99%;
+            border-radius: 1em 1em 10em 10em;
+    }
+    #whiterock{
+            position: absolute;
+            top: 220vh; right:25%;
+            border-radius: 10em;
+            height: 5em;
+        }
+    @media (orientation: landscape) {
+        #whiterock{
+            position: absolute;
+            top: 220vh; right:35%;
+            border-radius: 100em;
+            height: 5em;
+        }
+
+    }
+    

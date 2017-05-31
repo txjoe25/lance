@@ -1,0 +1,22 @@
+C:\Users\Joe\Desktop\Joe\bin\Debug\netcoreapp1.0\Joe.deps.json
+C:\Users\Joe\Desktop\Joe\bin\Debug\netcoreapp1.0\Joe.runtimeconfig.json
+C:\Users\Joe\Desktop\Joe\bin\Debug\netcoreapp1.0\Joe.runtimeconfig.dev.json
+C:\Users\Joe\Desktop\Joe\bin\Debug\netcoreapp1.0\Joe.dll
+C:\Users\Joe\Desktop\Joe\bin\Debug\netcoreapp1.0\Joe.pdb
+C:\Users\Joe\Desktop\Joe\obj\Debug\netcoreapp1.0\Joe.AssemblyInfo.cs
+C:\Users\Joe\Desktop\Joe\obj\Debug\netcoreapp1.0\Joe.dll
+C:\Users\Joe\Desktop\Joe\obj\Debug\netcoreapp1.0\Joe.pdb
+C:\Users\Joe\Documents\c#\Joe\bin\Debug\netcoreapp1.0\Joe.deps.json
+C:\Users\Joe\Documents\c#\Joe\bin\Debug\netcoreapp1.0\Joe.runtimeconfig.json
+C:\Users\Joe\Documents\c#\Joe\bin\Debug\netcoreapp1.0\Joe.runtimeconfig.dev.json
+C:\Users\Joe\Documents\c#\Joe\bin\Debug\netcoreapp1.0\Joe.dll
+C:\Users\Joe\Documents\c#\Joe\bin\Debug\netcoreapp1.0\Joe.pdb
+C:\Users\Joe\Documents\c#\Joe\obj\Debug\netcoreapp1.0\Joe.AssemblyInfo.cs
+C:\Users\Joe\Documents\c#\Joe\obj\Debug\netcoreapp1.0\Joe.dll
+C:\Users\Joe\Documents\c#\Joe\obj\Debug\netcoreapp1.0\Joe.pdb
+C:\Users\Joe\Documents\c#\Joe - Copy\bin\Debug\netcoreapp1.0\Joe.deps.json
+C:\Users\Joe\Documents\c#\Joe - Copy\bin\Debug\netcoreapp1.0\Joe.runtimeconfig.json
+C:\Users\Joe\Documents\c#\Joe - Copy\bin\Debug\netcoreapp1.0\Joe.runtimeconfig.dev.json
+C:\Users\Joe\Documents\c#\Joe - Copy\obj\Debug\netcoreapp1.0\Joe.AssemblyInfo.cs
+C:\Users\Joe\Documents\c#\Joe - Copy\obj\Debug\netcoreapp1.0\Joe.dll
+C:\Users\Joe\Documents\c#\Joe - Copy\obj\Debug\netcoreapp1.0\Joe.pdb
